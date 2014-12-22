@@ -20,7 +20,7 @@ css file:
 gulp file:
 
 ```javascript
-    var urlAdjuster = require('gulp-css-url-adjuster');
+    var urlAdjuster = require('laravel-elixir-css-url-adjuster');
 
     mix.urlAdjuster('style.css', {
         prepend: '/image_directory/',
