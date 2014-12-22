@@ -4,7 +4,7 @@
   "description": "A gulp-css-url-adjuster wrapper ingredient for Laravel Elixir.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,9 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/farrrr/laravel-elixir-css-url-adjuster/issues"
+  },
+  "dependencies": {
+    "gulp-css-url-adjuster": "*"
   },
   "homepage": "https://github.com/farrrr/laravel-elixir-css-url-adjuster"
 }
