@@ -1,28 +1,25 @@
 {
-    "name": "laravel-elixir-css-url-adjuster",
-    "version": "0.1",
-    "description": "A gulp-css-url-adjuster wrapper ingredient for Laravel Elixir.",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "keywords": [
-        "gulp",
-        "laravel",
-        "elixir",
-        "adjuster"
-    ],
-    "author": "far Tseng",
-    "license": "MIT",
-    "homepage": "https://github.com/farrrr/laravel-elixir-css-url-adjuster",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/farrrr/laravel-elixir-css-url-adjuster"
-    },
-    "bugs": {
-        "url": "https://github.com/farrrr/laravel-elixir-css-url-adjuster/issues"
-    },
-    "dependencies": {
-        "gulp-css-url-adjuster": "*"
-    }
+  "name": "laravel-elixir-css-url-adjuster",
+  "version": "1.0.0",
+  "description": "A gulp-css-url-adjuster wrapper ingredient for Laravel Elixir.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/farrrr/laravel-elixir-css-url-adjuster.git"
+  },
+  "keywords": [
+    "gulp",
+    "laravel",
+    "elixir",
+    "adjuster"
+  ],
+  "author": "Far Tseng",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/farrrr/laravel-elixir-css-url-adjuster/issues"
+  },
+  "homepage": "https://github.com/farrrr/laravel-elixir-css-url-adjuster"
 }
