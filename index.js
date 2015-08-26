@@ -1,7 +1,9 @@
 var gulp = require('gulp');
-var elixir = require('laravel-elixir');
+var Elixir = require('laravel-elixir');
 var urlAdjuster = require('gulp-css-url-adjuster');
 var files = [];
+
+var Task = Elixir.Task;
 
 /*
  |----------------------------------------------------------------
@@ -12,7 +14,7 @@ var files = [];
  |
  */
 
-elixir.extend('urlAdjuster', function(input, options, output) {
+Elixir.extend('urlAdjuster', function(input, options, output) {
 
     files.push({
         input: input,
@@ -22,7 +24,7 @@ elixir.extend('urlAdjuster', function(input, options, output) {
 
     var stream;
 
-    gulp.task('urlAdjuster', function() {
+    new Task('urlAdjuster', function() {
         files.forEach(function(toUrlAdjust) {
             stream = gulp.src(toUrlAdjust.input)
                          .pipe(urlAdjuster(toUrlAdjust.options))
@@ -32,5 +34,5 @@ elixir.extend('urlAdjuster', function(input, options, output) {
         return stream;
     });
 
-    return this.queueTask('urlAdjuster');
+
 });
