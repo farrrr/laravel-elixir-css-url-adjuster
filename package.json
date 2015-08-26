@@ -1,6 +1,6 @@
 {
   "name": "laravel-elixir-css-url-adjuster",
-  "version": "1.0.3",
+  "version": "3.0.0",
   "description": "A gulp-css-url-adjuster wrapper ingredient for Laravel Elixir 3.",
   "main": "index.js",
   "scripts": {

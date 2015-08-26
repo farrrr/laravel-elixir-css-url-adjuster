@@ -4,7 +4,17 @@ This is a simple [gulp-css-url-adjuster](https://github.com/casualrelaxation/gul
 
 ## Installation
 
-`npm install --save-dev laravel-elixir-css-url-adjuster`
+Using NPM to install Laravel Elixir css-url-adjuster and save your `packages.json`
+
+**For laravel-elixir 3**
+```
+npm install --save-dev laravel-elixir-css-url-adjuster
+```
+
+**For Laravel-Elixir 2**
+```
+npm install --save-dev laravel-exlixir-css-url-adjuster@"^2.0"
+```
 
 ## Usage
 
