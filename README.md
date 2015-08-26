@@ -1,6 +1,6 @@
-#CSS url adjuster Ingredient for Laravel Elixir
+#CSS url adjuster Ingredient for Laravel Elixir 2
 
-This is a simple [gulp-css-url-adjuster](https://github.com/casualrelaxation/gulp-css-url-adjuster) wrapper ingredient for Laravel Elixir.
+This is a simple [gulp-css-url-adjuster](https://github.com/casualrelaxation/gulp-css-url-adjuster) wrapper ingredient for Laravel Elixir 2.
 
 ## Installation
 
@@ -94,7 +94,7 @@ or replace path to another:
 
 ## Bugs and Contributions
 
-If you find a bug, please [post an issue on GitHub](https://github.com/EdRands/laravel-elixir-css-url-adjuster/issues) describing the problem.
+If you find a bug, please [post an issue on GitHub](https://github.com/farrrr/laravel-elixir-css-url-adjuster/issues) describing the problem.
 Or better yet, make a pull request with the solution.
 
 ## License
